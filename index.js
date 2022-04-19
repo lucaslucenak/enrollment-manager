@@ -15,7 +15,7 @@ app.get('/register', (req, res) => {
 });
 
 app.get('/search', (req, res) => {
-    res.send('search');
+    res.render('main/search');
 });
 
 app.get('/edit', (req, res) => {
